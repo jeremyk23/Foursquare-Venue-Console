@@ -18,7 +18,7 @@ $(document).ready( function () {
   		foursquareResponse = JSON.parse(foursquareResponse);
   		var json = JSON.stringify(foursquareResponse, undefined, 2);
   		highlightedJSON = syntaxHighlight(json);
-  		$('#codeBlock').append(highlightedJSON);
+  		$('#codeBlock').html(highlightedJSON);
 	});
 
 	$(".dropdown-menu li a").click(function(){
