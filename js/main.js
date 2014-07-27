@@ -3,7 +3,6 @@ $(document).ready( function () {
 		var formJSON = $( this ).serializeArray();
   		console.log(formJSON);
   		event.preventDefault();
-  		fsEndString = '&client_id=KR5QNGVNULHKBZ1K5JBLAQ1WU4BAZEJQXDFMJ5QD35L4INCP&client_secret=1GB2PJNNLNIVEQQ0FZTI02XZQDLAUHAREO5XXDAXTE1SHXBF&v=20130815';
   		venue = formJSON[0].value;
   		locatilty = formJSON[1].value;
   		region = formJSON[2].value;
