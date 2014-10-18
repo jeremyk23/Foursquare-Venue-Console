@@ -7,11 +7,15 @@ $(document).ready( function () {
   		locatilty = formJSON[1].value;
   		region = formJSON[2].value;
 
+        // !!!!!!!!!!!!!!!!!!!! PUT YOUR CLIENT ID AND CLIENT SECRET HERE !!!!!!!!!!!!!!!!!!!! \\
+  		// fsEndString = '&client_id=your_client_id&client_secret=your_client_secret&v=20130815';
+        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \\
+        
   		placeStr = 'near='+locatilty+','+region;
   		queryStr = '&query='+venue;
 
   		fsBeginningURL = 'https://api.foursquare.com/v2/venues/search?';
-
+  		
   		fsCompleteURL = fsBeginningURL+placeStr+queryStr+fsEndString;
   		foursquareResponse = httpGet(fsCompleteURL);
   		foursquareResponse = JSON.parse(foursquareResponse);
