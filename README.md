@@ -3,7 +3,7 @@ Foursquare-Venue-Console
 
 A developer console for Foursquare's API that allows you to quickly and easily access venue data.
 
-<img src= "Foursquare_Venue_Console.png>
+<img src="Foursquare_Venue_Console.png">
 
 
 To use, just add your Foursquare API Client key and secret here:
