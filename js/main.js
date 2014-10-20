@@ -10,7 +10,7 @@ $(document).ready( function () {
         // !!!!!!!!!!!!!!!!!!!! PUT YOUR CLIENT ID AND CLIENT SECRET HERE !!!!!!!!!!!!!!!!!!!! \\
   		// fsEndString = '&client_id=your_client_id&client_secret=your_client_secret&v=20130815';
         // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \\
-        
+
   		placeStr = 'near='+locatilty+','+region;
   		queryStr = '&query='+venue;
 
